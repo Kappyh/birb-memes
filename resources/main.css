@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before{
+    color:#A100FF !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* containers */
+.general-container{
+    margin-top:20px;
+    background-color: #F9F9F9;
+}
+header#title{
+    padding-top: 20px;
+}
+
+/* Images */
+.image-birb{
+    max-width: 200px;
+    min-width: 150px;
+}
+
+/* forms and inputs */
+.form-group{
+    max-width: 300px;
+    margin: 20px auto;
+}
+label{
+    font-weight: bold;
+    font-size: 14px;
+}
+input{
+    border: 1px solid #A100FF !important;
+    border-radius: 15px;
+}
+button[type="submit"]{
+    margin: 20px;
+    border-radius: 10px !important;
+    text-transform: uppercase;
+    background-color: #FFBC00 !important;
+    min-width: 250px;
+    font-weight: bold;
+}
+
+/* links */
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
